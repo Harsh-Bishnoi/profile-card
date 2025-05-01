@@ -1,14 +1,16 @@
 import React from 'react'
 
-const CustomCard = ({img, Heading, Tittle, Gmail, location}) => {
+const CustomCard = ({ img, Name, Tittle, Gmail, location }) => {
     return (
         <>
-            <div className="max-w-[400px] border p-24 rounded-xl">
-                <img className='w-full rounded-xl' src={img} alt="img"/>
-                <h2 className='text-lg text-bold'>{Heading}</h2>
-                <p className='text-base'>{Tittle}</p>
-                <a className='text-base' href="#">{Gmail}</a>
-                <p className='text-base'>{location}</p>
+            <div className="flex">
+                <img className='w-100 max-w-400' src={img} alt="img" />
+                <div className="card">
+                    <h2 className='name'>{Name}</h2>
+                    <p className='text mt-10 mb-10'>{Tittle}</p>
+                    <a className='text' href="mailto:harshbishnoi855@gmail.com">{Gmail}</a>
+                    <p className='text mt-10'>{location}</p>
+                </div>
             </div>
         </>
     )

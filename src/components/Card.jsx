@@ -1,18 +1,13 @@
 import React from 'react'
-import { CARD_DATA } from './utils/helper'
 import CustomCard from './common/CustomCard'
-
+import my from '../assets/images/png/img-2.png'
 const Card = () => {
     return (
         <>
-            <div className="flex items-center justify-center min-h-screen">
-                <div className="max-w-[1440px] px-3">
-                    <div className="flex flex-wrap -mx-3 flex-row gap-24 justify-center">
-                        {CARD_DATA.map((item, index) => (
-                            <div key={index} className="">
-                                <CustomCard img={item.img} Heading={item.name} Tittle={item.title} Gmail={item.gmail} location={item.location} />
-                            </div>
-                        ))}
+            <div className="d-flex min-vh-100 justify-center items-center">
+                <div className="container">
+                    <div className="d-flex flex-wrap gap-24 justify-center">
+                        <CustomCard img={my} Name="Harsh Bishnoi" Tittle="Front End Developer" Gmail="harshbishnoi855@gmail.com" location="Hisar" />
                     </div>
                 </div>
             </div>
