@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+.text-base {
+    font-size: 16px;
+}
+
+.text-lg {
+    font-size: 18px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.p-24 {
+    padding: 24px;
+}
+
+.max-w-400 {
+    max-width: 400px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.max-w-1440 {
+    max-width: 1140px;
+}
+
+.px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.rounded-xl {
+    border-radius: 12px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
