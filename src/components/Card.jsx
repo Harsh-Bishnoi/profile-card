@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomCard from './common/CustomCard'
-import my from '../assets/images/png/my-img 1.svg'
+import my from '../assets/images/svg/my.svg'
 const Card = () => {
     return (
         <>
